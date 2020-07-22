@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: rgb(151, 147, 147);
+}
+.psd_design{
+    display: flex;
+    width: 954px;
+    margin-left: 200px;
+    margin-top: 10px;
+    /* border: 1px solid rgb(49, 42, 42); */
+    background-color: #fff;
+}
+
+
+
+/* ----------------left start-------- */
+
+.left{
+    width: 330px;
+    border-right:2px solid #DADADA;
+}
+
+/* ----top part */
+.psd{
+    width: 330px;
+    /* height: ; */
+}
+
+/* -------- */
+.top_icon{
+    background-color: #01A0E1;
+    display: flex;
+}
+.top_icon .icon{
+    width: 77px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.top_icon .top_pf{
+    margin-top: 15px;
+    margin-left: 160px;
+    height: 50px;
+    cursor: pointer;
+}
+/* ----------- */
+
+/* ----------- */
+.tanim1{
+    position: relative;
+    overflow: hidden;
+    background-color: #01A0E1;
+}
+.tanim2{
+    height: 55px;
+}
+.wave{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 200%;
+    background-position: 0 bottom;
+    background-repeat: repeat-x;
+    transform-origin: center bottom;
+}
+    
+@keyframes waves{
+    0%{
+        transform: translateX(0) translateY(0) scaleY(1);
+    }
+    0%{
+        transform: translateX(-25%) translateY(0) scaleY(.5);
+    }
+    0%{
+        transform: translateX(-50%) translateY(0) scaleY(1);
+    }
+}
+/* -----top part end------ */
+
+
+/* --------middle part start------ */
+.icon_part{
+  display: flex;
+  margin-top: 27px;
+  /* margin-left: 25px; */
+}
+.icon{
+    /* padding-left: 10px; */
+}
+.icon img{
+    height: 24px;
+    width: 24px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.search_icon{
+    margin-left: 27px;
+}
+.search_icon input{
+    position: relative;
+    height: 23px;
+    width: 164px;
+    background-color:  #01A0E1;
+    border: none;
+}
+.search_input::placeholder{
+    color: #fff;
+    padding-left: 30px;
+}
+.search_icon img{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    margin-left: -155px;
+    margin-top: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/* --------middle paart end------- */
+
+
+/* ---------bottom part start ------*/
+.bottom{
+    margin-top: 45px;
+    display: flex;
+}
+.color_line{
+    height: 70px;
+    width: 0px;
+    background-color: #01A0E1;
+    border: 2px solid #01A0E1;
+    margin-top: 57px;
+}
+.friend_list{
+    margin-left: 20px;
+}
+.chat_list{
+    display: flex;
+}
+.chat_name{
+    display: flex;
+    font-family: sans-serif;
+    height: 70px;
+    width: 255px;
+}
+.chat_name img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 4px solid #01A0E1;
+    cursor: pointer;
+}
+.name{
+    margin-left: 15px;
+    margin-top: -7px;
+}
+.name h4{
+    font-size: 13px;
+    cursor: pointer;
+}
+.name p{
+    font-size: 11px;
+    margin-top: -15px;
+}
+.chat_date p{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+/* ---------bottom part end-------- */
+
+
+/* ----------------------- left end --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------right start-------------------- */
+.right{
+    width: 615px;
+}
+
+
+/*  */
+.profile{
+    margin-left: 42%;
+    transform: translate(-50% 50%);
+    margin-top: 100px;
+}
+.profile img{
+    cursor: pointer;
+}
+.profile h3{
+    margin-top: -1px;
+    font-family: sans-serif;
+    margin-left: 14px;
+}
+.profile p{
+    margin-top: -13px;
+    font-family: sans-serif;
+    margin-left: 32px;
+}
+.str img{
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    margin-top: -13px;
+}
+/*   //////   */
+
+
+/*  */
+.right_btm{
+    display: flex;
+    margin-top: 330px;
+    margin-bottom: 10px;
+}
+.right_btm span{
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 2px;
+    height: 25px;
+    width: 100px;
+    background-color: #E00342;
+    color: #fff;
+    cursor: pointer;
+}
+.btm_user{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.right_btm .back{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 360px;
+    cursor: pointer;
+}
+.right_btm h3{
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 21px;
+    color: #01A0E1;
+}
+.right_btm .back img{
+    height: 30px;
+    width: 14px;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+/*   //////   */
+/* --------------------------right end here----------------- */
